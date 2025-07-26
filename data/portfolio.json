@@ -1,0 +1,114 @@
+{
+  "personal": {
+    "name": "Sooraj Lal M",
+    "role": "Backend Developer",
+    "email": "lsoorajlal5@gmail.com",
+    "phone": "+91 9645912843",
+    "location": "TVM Kerala India",
+    "bio": "Passionate backend developer with 1+ years of experience building scalable web applications and APIs. I love solving complex problems and creating efficient, maintainable code.",
+    "avatar": "/placeholder-user.jpg?height=200&width=200",
+    "resume": "/resume.pdf"
+  },
+  "skills": [
+    "Node.js",
+    "Express.js",
+    "JavaScript",
+    "TypeScript",
+    "Rust",
+    "MongoDB",
+    "PostgreSQL",
+    "MySQL",
+    "Prisma",
+    "Docker",
+    "REST APIs",
+    "HTML5",
+    "CSS",
+    "Bootstrap",
+    "ReactJS",
+    "NextJS"
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "company": "Twinsway Technologies",
+      "position": "Junior Developer",
+      "duration": "2024 - Present",
+      "description": "Lead backend development for enterprise applications serving 100K+ users. Architected microservices infrastructure and improved system performance by 40%.",
+      "technologies": ["Node.js","Express.js", "PostgreSQL", "MongoDB", "WebSocket", "front-end"]
+    },
+    {
+      "id": 2,
+      "company": "StackUp LearningHub",
+      "position": "Software Engineer Intern",
+      "duration": "2019 - 2020",
+      "description": "Built web applications and APIs for various clients. Collaborated with frontend teams to deliver full-stack solutions.",
+      "technologies": ["JavaScript", "Express.js", "MySQL"]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "institution": "University of California, Berkeley",
+      "degree": "Bachelor of Science in Computer Science",
+      "duration": "2015 - 2019",
+      "gpa": "3.8/4.0",
+      "description": "Focused on software engineering, algorithms, and database systems. Active member of the Computer Science Society."
+    },
+    {
+      "id": 2,
+      "institution": "AWS Certified Solutions Architect",
+      "degree": "Professional Certification",
+      "duration": "2021",
+      "description": "Certified in designing and deploying scalable systems on AWS cloud platform."
+    }
+  ],
+  "liveProjects": [
+    {
+      "id": 1,
+      "title": "E-commerce API Platform",
+      "description": "Scalable e-commerce backend serving 50K+ daily active users with real-time inventory management and payment processing.",
+      "image": "/placeholder.svg?height=300&width=400",
+      "technologies": ["Node.js", "PostgreSQL", "Redis", "Stripe API"],
+      "liveUrl": "https://api.ecommerce-platform.com",
+      "features": ["Real-time inventory", "Payment processing", "Order management", "Analytics dashboard"]
+    },
+    {
+      "id": 2,
+      "title": "Healthcare Management System",
+      "description": "HIPAA-compliant backend system for managing patient records and appointments for a network of clinics.",
+      "image": "/placeholder.svg?height=300&width=400",
+      "technologies": ["Python", "FastAPI", "PostgreSQL", "Docker"],
+      "liveUrl": "https://healthsystem.example.com",
+      "features": ["Patient management", "Appointment scheduling", "Medical records", "HIPAA compliance"]
+    }
+  ],
+  "personalProjects": [
+    {
+      "id": 1,
+      "title": "Task Management API",
+      "description": "RESTful API for task management with user authentication, real-time notifications, and team collaboration features.",
+      "image": "/placeholder.svg?height=300&width=400",
+      "technologies": ["Node.js", "Express.js", "MongoDB", "Socket.io"],
+      "githubUrl": "https://github.com/johndoe/task-api",
+      "features": ["User authentication", "Real-time updates", "Team collaboration", "File attachments"]
+    },
+    {
+      "id": 2,
+      "title": "Weather Data Aggregator",
+      "description": "Python service that aggregates weather data from multiple APIs and provides historical analysis and forecasting.",
+      "image": "/placeholder.svg?height=300&width=400",
+      "technologies": ["Python", "FastAPI", "PostgreSQL", "Celery"],
+      "githubUrl": "https://github.com/johndoe/weather-aggregator",
+      "features": ["Multi-source data", "Historical analysis", "API rate limiting", "Data visualization"]
+    },
+    {
+      "id": 3,
+      "title": "Blockchain Transaction Monitor",
+      "description": "Real-time blockchain transaction monitoring system with alerts and analytics for cryptocurrency transactions.",
+      "image": "/placeholder.svg?height=300&width=400",
+      "technologies": ["Node.js", "WebSocket", "Redis", "Chart.js"],
+      "githubUrl": "https://github.com/johndoe/blockchain-monitor",
+      "features": ["Real-time monitoring", "Custom alerts", "Transaction analytics", "Multi-chain support"]
+    }
+  ]
+}
