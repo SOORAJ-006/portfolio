@@ -25,7 +25,7 @@ export default function Hero({ data }: HeroProps) {
             <img
               src={data.avatar || "/placeholder.svg"}
               alt={data.name}
-              className="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto mb-6 border-4 border-white/20 shadow-xl"
+              className="w-32 h-32 md:auto md:h-40 rounded-full mx-auto mb-6 border-4 border-white/20 shadow-xl"
             />
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">{data.name}</h1>
             <h2 className="text-xl md:text-2xl text-blue-400 mb-6 font-medium">{data.role}</h2>
