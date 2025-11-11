@@ -1,11 +1,11 @@
 {
   "personal": {
     "name": "Sooraj Lal M",
-    "role": "Backend Developer",
+    "role": "Full Stack Developer",
     "email": "lsoorajlal5@gmail.com",
-    "phone": "+91 9645912843",
-    "location": "TVM Kerala India",
-    "bio": "Passionate backend developer with 1+ years of experience building scalable web applications and APIs. I love solving complex problems and creating efficient, maintainable code.",
+    "phone": "+971 557234769, +91 9645912843",
+    "location": "Dubai UAE",
+    "bio": "Innovative Full-Stack Developer with a proven record of turning business challenges into seamless digital products. Skilled in MERN, Next.js, and TypeScript, passionate about transforming complex ideas into high-impact digital experiences.I build and optimize high-performance applications like McDonald’s Winnerverse (GCC Campaign Games), Fildex Solutions (Ireland), and MyPrepHero (UAE) using Next.js, Node.js, TypeScript, and MongoDB — focusing on scalability, low latency, and clean architecture that delivers measurable business results.",
     "avatar": "/user.jpeg?height=200&width=200",
     "resume": "/resume.pdf"
   },
@@ -32,19 +32,53 @@
   "experience": [
     {
       "id": 1,
-      "company": "Twinsway Technologies",
-      "position": "Junior Developer",
-      "duration": "2024 - Present",
-      "description": "Full-stack development for enterprise applications serving 100K+ users. Architected microservices infrastructure and improved system performance by 40%.",
-      "technologies": ["Node.js","Express.js", "PostgreSQL", "MongoDB", "WebSocket", "Jest" , "Next.js"]
+      "company": "Freelancing",
+      "position": "Software Developer",
+      "duration": "2025 - Present",
+      "description": "Designing and developing full-stack web applications for clients across various domains. Delivered scalable and high-performance solutions, including API integrations, real-time features with WebSocket, and cloud deployment. Focused on building maintainable code, optimizing system efficiency, and enhancing user experience for applications serving large user bases.",
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "MongoDB",
+        "WebSocket",
+        "Jest",
+        "Next.js",
+        "React.js",
+        "JavaScript",
+        "TypeScript"
+      ]
     },
     {
       "id": 2,
+      "company": "Twinsway Technologies",
+      "position": "Junior Developer",
+      "duration": "2024 - 2025",
+      "description": "Full-stack development for enterprise applications serving 100K+ users. Architected microservices infrastructure and improved system performance by 40%.",
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "MongoDB",
+        "WebSocket",
+        "Jest",
+        "Next.js"
+      ]
+    },
+    {
+      "id": 3,
       "company": "StackUp LearningHub",
       "position": "Software Engineer Intern",
-      "duration": "2019 - 2020",
+      "duration": "2024 - 2024",
       "description": "Built web applications and APIs . Collaborated with frontend teams to deliver full-stack solutions.",
-      "technologies": ["JavaScript", "Node.js" ,"Express.js", "MySQL", "MongoDb", "React.js"]
+      "technologies": [
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "MongoDb",
+        "React.js"
+      ]
     }
   ],
   "education": [
@@ -54,33 +88,121 @@
       "degree": "Bachelor of Science in Computer Science",
       "duration": "2020 - 2023",
       "description": "Focused on software engineering, algorithms,DSA , and database systems. Active member of the Computer Science Society."
-    },
-    {
-      "id": 2,
-      "institution": "AWS Certified Solutions Architect",
-      "degree": "Professional Certification",
-      "duration": "2021",
-      "description": "Certified in designing and deploying scalable systems on AWS cloud platform."
     }
   ],
   "liveProjects": [
-    {
+        {
       "id": 1,
-      "title": "d2vinteriors",
-      "description": "Website for conecting and designing your dream home, backend serving 10K+ daily active users with cost detction algorithm management.",
-      "image": "/placeholder.svg?height=300&width=400",
-      "technologies": ["Node.js", "Express.js", "PostgreSQL", "Prisma"],
-      "liveUrl": "https://d2vinteriors.com/",
-      "features": ["Cost detction algorithm", "Design layout", "Doubt clearence", "Analytics dashboard", "Admin Dashboard"]
+      "title": "MyPrepHero",
+      "description": "MyPrepHero is a leading UAE-based e-commerce platform promoting healthy lifestyles by offering high-quality, nutritious meal options. The website enables seamless product browsing, order placement, and admin management for inventory and orders.",
+      "image": "/MyPrepHero.png?height=300&width=400",
+      "technologies": [
+        "Next.js",
+        "Node.js",
+        "REST API",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "liveUrl": "https://www.myprephero.com/",
+      "features": [
+        "Responsive and user-friendly interface",
+        "Dynamic and SEO-optimized frontend using Next.js",
+        "Admin Panel built with Angular for managing products and orders",
+        "Product filtering and cart management system",
+        "Real-time order tracking with REST API integration",
+        "Optimized performance and SEO for better visibility",
+        "Cross-browser and device compatibility"
+      ]
     },
     {
       "id": 2,
+      "title": "YumFitMe",
+      "description": "YumFitMe is a premier food delivery service platform in the UAE, enabling users to browse menus, place orders, and track deliveries from local restaurants. It offers a seamless and responsive user experience with menu filtering, order management, and an admin dashboard for restaurant operations.",
+      "image": "/YumFitMe.png?height=300&width=400",
+      "technologies": [
+        "React.js",
+        "Material UI",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "REST API",
+        "Axios",
+        "Node.js",
+        "GitLab"
+      ],
+      "liveUrl": "https://yumfitme.nutribotcrm.com/3305",
+      "features": [
+        "Responsive and engaging UI built with React.js and Material UI",
+        "Dynamic menu browsing and product filtering",
+        "Cart management and real-time order tracking",
+        "Integration with REST APIs using Axios for live data updates",
+        "Admin dashboard for restaurant and order management",
+        "Optimized for performance and usability across devices"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "GetMaid",
+      "description": "GetMaid is a mobile and web platform designed to connect users with maids and cleaning agencies. The system includes a React Native mobile app and a powerful Node.js backend with real-time communication, location-based search, and role-based access control for users and admins.",
+      "image": "/GetMaid.png?height=300&width=400",
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "WebSocket",
+        "Redux",
+        "Next.js",
+        "JavaScript",
+        "TypeScript",
+        "REST API",
+        "GitLab"
+      ],
+      "features": [
+        "Real-time communication and updates using WebSocket",
+        "Location-based search and job matching system",
+        "Role-based access control (RBAC) for users, maids, and admins",
+        "Admin dashboard for managing users, jobs, and agencies",
+        "WhatsApp API integration for instant notifications and communication",
+        "Face detection and validation for secure user verification",
+        "Scalable backend architecture built with Node.js, Express, and MongoDB",
+        "Cross-platform mobile app with React Native for booking and profile management"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "d2vinteriors",
+      "description": "Website for conecting and designing your dream home, backend serving 10K+ daily active users with cost detction algorithm management.",
+      "image": "/D2V.png?height=300&width=400",
+      "technologies": ["Node.js", "Express.js", "PostgreSQL", "Prisma"],
+      "liveUrl": "https://d2vinteriors.com/",
+      "features": [
+        "Cost detction algorithm",
+        "Design layout",
+        "Doubt clearence",
+        "Analytics dashboard",
+        "Admin Dashboard"
+      ]
+    },
+    {
+      "id": 5,
       "title": "Milagra designs",
       "description": "A static webpage for showcasing the client previous work. Admin dashboard for uploading the work details.",
-      "image": "/placeholder.svg?height=300&width=400",
-      "technologies": ["Next.js", "TailwindCss", "PostgreSQL", "Node.js", "Express.js"],
+      "image": "/milagradesigns.png?height=300&width=400",
+      "technologies": [
+        "Next.js",
+        "TailwindCss",
+        "PostgreSQL",
+        "Node.js",
+        "Express.js"
+      ],
       "liveUrl": "https://milagradesigns-rf42.vercel.app",
-      "features": ["Admin Dashboard", "Contach details", "Admin Dashboard", "AWS S3"]
+      "features": [
+        "Admin Dashboard",
+        "Contach details",
+        "Admin Dashboard",
+        "AWS S3"
+      ]
     }
   ],
   "personalProjects": [
@@ -91,16 +213,32 @@
       "image": "/placeholder.svg?height=300&width=400",
       "technologies": ["Node.js", "Express.js", "MongoDB"],
       "githubUrl": "https://github.com/SOORAJ-006/Task-Management-Server",
-      "features": ["User authentication", "Team collaboration", "File attachments"]
+      "features": [
+        "User authentication",
+        "Team collaboration",
+        "File attachments"
+      ]
     },
     {
       "id": 2,
       "title": "Coonectverse 2d",
       "description": "Build to understand the wesocket and WebRTC in node.js, express.js, mongoDb,Next.js. it is website where user can register or login and create a room or enter a room with other users and they can moe around the space a connect with others.",
       "image": "/connectverse.png?height=300&width=400",
-      "technologies": ["Node.js", "MongoDB", "Express.js", "Next.js", "Phaser.js"],
+      "technologies": [
+        "Node.js",
+        "MongoDB",
+        "Express.js",
+        "Next.js",
+        "Phaser.js"
+      ],
       "githubUrl": "https://github.com/SOORAJ-006/connectverse_2d",
-      "features": ["server side rendering", "CRUD actions", "connecting the server", "WebRtc", "video call"]
+      "features": [
+        "server side rendering",
+        "CRUD actions",
+        "connecting the server",
+        "WebRtc",
+        "video call"
+      ]
     }
   ]
 }

@@ -22,7 +22,7 @@ export default function Hero({ data }: HeroProps) {
       <div className="max-w-4xl mx-auto text-center">
         <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-3xl p-8 md:p-12 shadow-2xl">
           <div className="mb-8">
-            <img
+            <img  
               src={data.avatar || "/placeholder.svg"}
               alt={data.name}
               className="w-32 h-32 md:auto md:h-40 rounded-full mx-auto mb-6 border-4 border-white/20 shadow-xl"
