@@ -91,7 +91,7 @@
     }
   ],
   "liveProjects": [
-        {
+    {
       "id": 1,
       "title": "MyPrepHero",
       "description": "MyPrepHero is a leading UAE-based e-commerce platform promoting healthy lifestyles by offering high-quality, nutritious meal options. The website enables seamless product browsing, order placement, and admin management for inventory and orders.",
@@ -202,6 +202,29 @@
         "Contach details",
         "Admin Dashboard",
         "AWS S3"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Axios Smart Extended",
+      "description": "A powerful and enhanced Axios wrapper built with TypeScript, featuring automatic retry logic, configurable retry delays, colored request logging, and clean helper methods for simplifying HTTP requests in Node.js and web applications.",
+      "image": "/axios-smart-extended.png?height=300&width=400",
+      "technologies": [
+        "TypeScript",
+        "Node.js",
+        "Axios",
+        "Chalk",
+        "NPM",
+        "JavaScript"
+      ],
+      "liveUrl": "https://www.npmjs.com/package/axios-smart-extended",
+      "features": [
+        "Automatic Retry Logic",
+        "Configurable Retry Delay",
+        "Color-Coded Logging",
+        "Helper Methods (GET, POST, PUT, DELETE)",
+        "TypeScript Support",
+        "Lightweight & Developer-Friendly API"
       ]
     }
   ],

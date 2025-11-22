@@ -1,5 +1,6 @@
 "use client"
 
+import Head from "next/head";
 import { useState, useEffect } from "react"
 import Navigation from "@/components/navigation"
 import Hero from "@/components/hero"
@@ -35,20 +36,36 @@ export default function Portfolio() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
-      {/* Background Pattern */}
-      <div className="fixed inset-0 bg-[url('/placeholder.svg?height=100&width=100')] opacity-5"></div>
+    <>
+      <Head>
+        <title>Sooraj Lal | Full Stack Developer Portfolio</title>
+        <meta
+          name="description"
+          content="Sooraj Lal - Full Stack Developer in UAE specializing in scalable web apps using Node.js, React, Next.js, and Express."
+        />
+        <meta
+          name="keywords"
+          content="Sooraj, Sooraj Lal, Full Stack Developer, Software Engineer, MERN Stack, Next.js Developer, UAE Developer, Node.js, React, Portfolio"
+        />
+        <meta name="author" content="Sooraj Lal" />
+        <link rel="canonical" href="https://yourdomain.com" />
+      </Head>
+      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+        {/* Background Pattern */}
+        <div className="fixed inset-0 bg-[url('/placeholder.svg?height=100&width=100')] opacity-5"></div>
 
-      <Navigation activeSection={activeSection} />
+        <Navigation activeSection={activeSection} />
 
-      <main className="relative z-10">
-        <Hero data={portfolioData.personal} />
-        <About data={portfolioData.personal} skills={portfolioData.skills} />
-        <Experience data={portfolioData.experience} />
-        <Education data={portfolioData.education} />
-        <Projects liveProjects={portfolioData.liveProjects} personalProjects={portfolioData.personalProjects} />
-        <Contact data={portfolioData.personal} />
-      </main>
-    </div>
+        <main className="relative z-10">
+          <Hero data={portfolioData.personal} />
+          <About data={portfolioData.personal} skills={portfolioData.skills} />
+          <Experience data={portfolioData.experience} />
+          <Education data={portfolioData.education} />
+          <Projects liveProjects={portfolioData.liveProjects} personalProjects={portfolioData.personalProjects} />
+          <Contact data={portfolioData.personal} />
+        </main>
+      </div>
+    </>
+
   )
 }
