@@ -21,11 +21,11 @@ interface ProjectsProps {
 }
 
 export default function Projects({ liveProjects, personalProjects }: ProjectsProps) {
-  // const [activeTab, setActiveTab] = useState<"live" | "personal">("live")
-  // const currentProjects = activeTab === "live" ? liveProjects : personalProjects
+  const [activeTab, setActiveTab] = useState<"live" | "personal">("live")
+  const currentProjects = activeTab === "live" ? liveProjects : personalProjects
 
   // Only show live projects
-  const currentProjects = liveProjects
+  // const currentProjects = liveProjects
 
   return (
     <section id="projects" className="py-20 px-4">
@@ -36,13 +36,18 @@ export default function Projects({ liveProjects, personalProjects }: ProjectsPro
         <div className="flex justify-center mb-12">
           <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-2xl p-2">
             <button
-              // onClick={() => setActiveTab("live")}
-              className="px-6 py-3 rounded-xl font-medium transition-all duration-200 bg-blue-600 text-white shadow-lg"
+              onClick={() => setActiveTab("live")}
+              // className="px-6 py-3 rounded-xl font-medium transition-all duration-200 bg-blue-600 text-white shadow-lg"
+              className={`px-6 py-3 rounded-xl font-medium transition-all duration-200 ${
+                activeTab === "live"
+                  ? "bg-blue-600 text-white shadow-lg"
+                  : "text-white/70 hover:text-white hover:bg-white/10"
+              }`}
             >
               Live Projects
             </button>
 
-            {/* <button
+            <button
               onClick={() => setActiveTab("personal")}
               className={`px-6 py-3 rounded-xl font-medium transition-all duration-200 ${
                 activeTab === "personal"
@@ -51,7 +56,7 @@ export default function Projects({ liveProjects, personalProjects }: ProjectsPro
               }`}
             >
               Personal Projects
-            </button> */}
+            </button>
           </div>
         </div>
 

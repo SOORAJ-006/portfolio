@@ -1,11 +1,11 @@
 {
   "personal": {
     "name": "Sooraj Lal M",
-    "role": "Full Stack Developer",
+    "role": "Backend Developer",
     "email": "lsoorajlal5@gmail.com",
     "phone": "+91 9645912843",
     "location": "India",
-    "bio": "Innovative Full-Stack Developer with a proven record of turning business challenges into seamless digital products. Skilled in MERN, Next.js, and TypeScript, passionate about transforming complex ideas into high-impact digital experiences.I build and optimize high-performance applications like McDonald’s Winnerverse (GCC Campaign Games), Fildex Solutions (Ireland), and MyPrepHero (UAE) using Next.js, Node.js, TypeScript, and MongoDB — focusing on scalability, low latency, and clean architecture that delivers measurable business results.",
+    "bio": "Performance-Driven Software Engineer specializing in scalable Node.js/TypeScript backends and modern web technologies. I excel atbuilding mission-critical API surfaces, having engineered hundreds of production-ready endpoints with a focus on latency reduction andasynchronous processing. My expertise spans the full development lifecycle: from initial REST API design to containerized deploymentusing Docker and Nginx. I am passionate about engineering efficiency, evidenced by my ability to reduce manual coordination by 80%through intelligent automation and robust system design.",
     "avatar": "/user.jpeg?height=200&width=200",
     "resume": "/resume.pdf"
   },
@@ -22,9 +22,9 @@
     "Docker",
     "Jest",
     "REST APIs",
-    "HTML5",
-    "CSS",
-    "Bootstrap",
+    "OpenClaw",
+    "RAG",
+    "Automation",
     "Tailwind",
     "ReactJS",
     "NextJS"
@@ -32,9 +32,9 @@
   "experience": [
     {
       "id": 1,
-      "company": "Freelancing",
-      "position": "Software Developer",
-      "duration": "2025 - Present",
+      "company": "BayteBar",
+      "position": "Software Engineer",
+      "duration": "2025 - 2026",
       "description": "Designing and developing full-stack web applications for clients across various domains. Delivered scalable and high-performance solutions, including API integrations, real-time features with WebSocket, and cloud deployment. Focused on building maintainable code, optimizing system efficiency, and enhancing user experience for applications serving large user bases.",
       "technologies": [
         "Node.js",
@@ -67,7 +67,7 @@
     },
     {
       "id": 3,
-      "company": "StackUp LearningHub",
+      "company": "Stackmod Innovations",
       "position": "Software Engineer Intern",
       "duration": "2024 - 2024",
       "description": "Built web applications and APIs . Collaborated with frontend teams to deliver full-stack solutions.",
@@ -174,7 +174,12 @@
       "title": "d2vinteriors",
       "description": "Website for conecting and designing your dream home, backend serving 10K+ daily active users with cost detction algorithm management.",
       "image": "/D2V.png?height=300&width=400",
-      "technologies": ["Node.js", "Express.js", "PostgreSQL", "Prisma"],
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "Prisma"
+      ],
       "liveUrl": "https://d2vinteriors.com/",
       "features": [
         "Cost detction algorithm",
@@ -229,12 +234,60 @@
     }
   ],
   "personalProjects": [
+     {
+    "id": 1,
+    "title": "RAG AI Assistance",
+    "description": "Built a Retrieval-Augmented Generation (RAG) platform that processes uploaded PDFs using LangChain document loaders, chunks and embeds content with OpenAI embedding models, stores vectors for semantic retrieval, and enables contextual question-answering through OpenAI-powered conversational workflows.",
+    "image": "",
+    "technologies": [
+      "Node.js",
+      "TypeScript",
+      "LangChain",
+      "OpenAI",
+      "Vector Database"
+    ],
+    "githubUrl": "",
+    "features": [
+      "PDF document ingestion",
+      "Semantic vector search",
+      "Context-aware chat",
+      "OpenAI integration",
+      "Multi-document querying",
+      "Low-latency retrieval"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "ConfigHub",
+    "description": "Open-source distributed configuration management system for centralized handling of environment-specific configurations and secrets, featuring AES-256 encryption, schema validation, version-controlled updates, and runtime configuration resolution.",
+    "image": "",
+    "technologies": [
+      "Node.js",
+      "TypeScript",
+      "AES-256 Encryption",
+      "REST API",
+      "Configuration Management"
+    ],
+    "githubUrl": "",
+    "features": [
+      "Centralized configuration management",
+      "AES-256 secret encryption",
+      "Runtime configuration resolution",
+      "Schema validation",
+      "Version-controlled updates",
+      "Multi-environment support"
+    ]
+  },
     {
-      "id": 1,
+      "id": 3,
       "title": "Task Management API",
       "description": "RESTful API for task management with user authentication, and team collaboration features.",
       "image": "/placeholder.svg?height=300&width=400",
-      "technologies": ["Node.js", "Express.js", "MongoDB"],
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "MongoDB"
+      ],
       "githubUrl": "https://github.com/SOORAJ-006/Task-Management-Server",
       "features": [
         "User authentication",
@@ -243,10 +296,10 @@
       ]
     },
     {
-      "id": 2,
+      "id": 4,
       "title": "Coonectverse 2d",
       "description": "Build to understand the wesocket and WebRTC in node.js, express.js, mongoDb,Next.js. it is website where user can register or login and create a room or enter a room with other users and they can moe around the space a connect with others.",
-      "image": "/connectverse.png?height=300&width=400",
+      "image": "",
       "technologies": [
         "Node.js",
         "MongoDB",
